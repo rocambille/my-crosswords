@@ -1,0 +1,135 @@
+{
+  "crosswords": [
+    {
+      "id": 1,
+      "title": "Les types en JS",
+      "data": {
+        "across": {
+          "1": {
+            "clue": "donnée unique et inchangeable",
+            "answer": "symbol",
+            "row": 2,
+            "col": 0
+          },
+          "2": {
+            "clue": "() => {}",
+            "answer": "function",
+            "row": 5,
+            "col": 5
+          },
+          "3": {
+            "clue": "\"hello world\"",
+            "answer": "string",
+            "row": 7,
+            "col": 2
+          },
+          "4": {
+            "clue": "true ou false",
+            "answer": "boolean",
+            "row": 10,
+            "col": 6
+          }
+        },
+        "down": {
+          "5": {
+            "clue": "2^53 et au-delà",
+            "answer": "bigint",
+            "row": 2,
+            "col": 3
+          },
+          "6": {
+            "clue": "valeur définie à rien",
+            "answer": "null",
+            "row": 0,
+            "col": 5
+          },
+          "7": {
+            "clue": "42",
+            "answer": "number",
+            "row": 7,
+            "col": 6
+          },
+          "8": {
+            "clue": "{a: 42, b: 43}",
+            "answer": "object",
+            "row": 7,
+            "col": 10
+          },
+          "9": {
+            "clue": "valeur non définie",
+            "answer": "undefined",
+            "row": 4,
+            "col": 12
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "title": "Quelques expressions",
+      "data": {
+        "across": {
+          "1": {
+            "clue": "quand une condition *c* est fausse, on obtient *sifaux*",
+            "answer": "c||sifaux",
+            "row": 4,
+            "col": 3
+          },
+          "2": {
+            "clue": "quand une condition *c* est vraie, on obtient *sivrai*; sinon, on obtient *sifaux*",
+            "answer": "c?sivrai:sifaux",
+            "row": 8,
+            "col": 0
+          },
+          "3": {
+            "clue": "appelle une fonction *map* en lui donnant une fonction en argument",
+            "answer": "map(()=>{})",
+            "row": 11,
+            "col": 6
+          },
+          "4": {
+            "clue": "structure de contrôle pour tester une condition",
+            "answer": "if(){}",
+            "row": 14,
+            "col": 5
+          }
+        },
+        "down": {
+          "5": {
+            "clue": "quand une condition *c* est vraie, on obtient *sivrai*",
+            "answer": "c&&sivrai",
+            "row": 0,
+            "col": 7
+          },
+          "6": {
+            "clue": "une fonction normale",
+            "answer": "function(){}",
+            "row": 3,
+            "col": 10
+          },
+          "7": {
+            "clue": "quand une expression *a* est nulle, on obtient *sinull*",
+            "answer": "a??sinull",
+            "row": 6,
+            "col": 1
+          },
+          "8": {
+            "clue": "un tableau d'objets",
+            "answer": "[{},{}]",
+            "row": 10,
+            "col": 14
+          },
+          "9": {
+            "clue": "une fonction fléchée",
+            "answer": "()=>{}",
+            "row": 10,
+            "col": 16
+          }
+        }
+      }
+    }
+  ],
+  "profile": {
+    "name": "rocambille"
+  }
+}
